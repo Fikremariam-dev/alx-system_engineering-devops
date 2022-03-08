@@ -1,2 +1,3 @@
 #!/bin/bash
+readarray -t list 
 cat list | sort |uniq -u
